@@ -3,27 +3,30 @@
     padding: 0px;
 }
 .button{
-    width: 50px;;
+    width: 50px;
     height: 50px;
     font-size: 25px;
     margin: 2px;
     cursor: pointer;
+    background: #607d8b;
+    border: none ; 
+    color: white;
 }
 .textview{
     width: 217px;
     margin: 5px;
     font-size: 25px;
     padding: 5px;
-    border: none;
+  
     color: #507d8b;
 }
-.main {
+.main{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%)translateY(-50%);
 }
 .bg{
-    background: linear-gradient(to right,red,blue);
+    background:linear-gradient(to right,red,blue);
     height: 100%;
 }

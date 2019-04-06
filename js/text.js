@@ -1,5 +1,5 @@
 function insert(num){
-    document.form.textview.value= document.form.textview.value+num;
+    document.form.textview.value= document.form.textview.value+num
 }
 function equal(){
     var exp=document.form.textview.value;
@@ -12,4 +12,4 @@ function clean(){
 }
 function back(){
     var exp=document.form.textview.value;
-document.form.textview.value= exp.substring(0.exp.length-1);
+document.form.textview.value= exp.substring(0.exp.length-1);}
