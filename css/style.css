@@ -1,7 +1,6 @@
 
 *{  margin: 0px;
     padding: 0px;
-    background-color: blueviolet;
 }
 .button{
     width: 50px;;
@@ -15,4 +14,16 @@
     margin: 5px;
     font-size: 25px;
     padding: 5px;
+    border: none;
+    color: #507d8b;
+}
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.bg{
+    background: linear-gradient(to right,red,blue);
+    height: 100%;
 }

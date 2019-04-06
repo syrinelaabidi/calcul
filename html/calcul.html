@@ -7,13 +7,15 @@
 <link rel="stylesheet" type="text/css" href="../css/style.css">
 <script src="../js/text.js"></script></head>
     <body>
+        <div class="bg"></div>
         <div class ="main">
             <form name="form">
                 <input class="textview" name="textview">
+            </form>
                     <table>
 <tr> 
-    <td><input class="button" type="button" value="C" ></td>
-    <td><input class="button" type="button"  value="<" ></td>
+    <td><input class="button" type="button" value="C" onclick="clean()"></td>
+    <td><input class="button" type="button"  value="<" onclick="back()"></td>
     <td><input class="button" type="button" value="/" onclick="insert('/')"></td>
     <td><input class="button" type="button" value="X" onclick="insert('*')"></td>
  
@@ -30,14 +32,20 @@
     <td><input class="button" type="button" value="6"  onclick="insert(6)"></td>
     <td><input class="button" type="button" value="+"  onclick="insert('+')"></td>
 
-</tr><tr> 
+</tr>
+    
+    <tr> 
     <td><input class="button" type="button" value="1"  onclick="insert(1)"></td>
     <td><input class="button" type="button" value="2"  onclick="insert(2)"></td>
     <td><input class="button" type="button" value="3"  onclick="insert(3)"></td>
-    <td><input class="button" type="button" value="="  onclick="equal()"></td>
+    <td rowspan="2"><input class="button" style="height:106px" type="button" value="="  onclick="equal()"></td>
 
-</tr>
+</tr><tr> 
+    <td colspan="2"><input class="button" style="width: 106px " type ="button" value="0"  onclick="insert(0)"></td>
+    <td><input class="button" type="button"  value="."  onclick="insert('.')"></td>
+     </tr>
+    
             </table>
-        </div></form>
+        </div>
     </body>
 </html>
