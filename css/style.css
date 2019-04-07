@@ -1,6 +1,8 @@
 
 *{  margin: 0px;
     padding: 0px;
+    background:linear-gradient(to right,#d7ff00,#8500ff);
+    
 }
 .button{
     width: 50px;
